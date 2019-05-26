@@ -7,9 +7,6 @@ import java.util.concurrent.*;
 import java.util.regex.*;
 
 public class P1 {
-
-    
-
 	private static final Scanner scanner = new Scanner(System.in);
 
     public static void main(String[] args) {
