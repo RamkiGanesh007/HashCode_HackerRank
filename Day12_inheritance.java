@@ -27,9 +27,7 @@ class Student extends Person{
     Student(String firstName,String lastName,int id,int[] testScores)
     {
        
-        this.firstName = firstName;
-		this.lastName = lastName;
-		this.idNumber = identification;
+       super(firstName,lastName,id);
         this.testScores=testScores; 
     }
 
